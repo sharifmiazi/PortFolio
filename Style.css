@@ -1,0 +1,78 @@
+/*Common eletements*/
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #39150C url(./Assets/i.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+/*header Nav Bar*/
+.bg-img {
+    /* The image used */
+    background-image: url("./Assets/nav.jpg");
+  
+    min-height: 105px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  .MyPicture{
+    display: block;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    right: 0;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 10px outset blueviolet;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 90%;
+  height: 20%;
+}
+/*nav bar
+side bar
+main section
+footer
+*/
+
